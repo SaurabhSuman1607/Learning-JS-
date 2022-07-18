@@ -71,3 +71,20 @@ console.log(CaptainAmerica);
   obj1.name="Mayank";
   console.log(obj1);
   console.log(clone);
+
+
+  // 
+  let arr = [1, 4, 2, 3, 2, 4, 1, 5, 6, 1, 1];
+//     for(var i=0 ; i<arr.length ; i++){
+//        console.log(i + ":" + arr[i]);
+//     }  
+
+      function getthefreq(acc, res){
+          if(acc[i]){
+            acc[i]=acc[i];
+            return acc[i];
+          }
+      }
+
+  var res=arr.reduce(getthefreq , {});
+    console.log(res);
