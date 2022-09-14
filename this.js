@@ -29,7 +29,8 @@
   obj.type2()
     // Here because function is in object so in object this will be poiniting and it will check 
     // whether it is present or not it will only check in object becaus of rule 3
- //3.
+ 
+    //3.
 
  var food="Pizza";
  var obj={
@@ -45,7 +46,9 @@
  //here because the function definition will be there in foo but in line 45 we have called the function 
  // which is globally called .  
 
+ 
  //4.
+ 
  var length=1;
   function square(){
     let cb= function() {
